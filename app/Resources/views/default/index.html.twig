@@ -1,0 +1,100 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <header>
+	<!-- navbar -->
+	{% include 'default/header.html.twig' %}
+
+    <!-- contenu de la page -->
+    {% block  contenu %}
+    	   <!-- carousel -->
+
+         
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div id="mycarousel" class="carousel slide" data-ride="carousel" style="padding:0px; margin:0px;">
+                      <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                        <li data-target="#mycarousel" data-slide-to="3"></li>
+                        <li data-target="#mycarousel" data-slide-to="4"></li>
+                        <li data-target="#mycarousel" data-slide-to="5"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                    
+                          <div class="carousel-inner" role="listbox">
+                              <div class="item active">
+                                <img src="{{ asset('bundles/images/logo.jpg') }}" alt="">
+                                <div class="carousel-caption">Le club Robotech de l'ESP</div>
+                              </div>
+                              <div class="item">
+                                <img src="" alt="">
+                                <div class="carousel-caption">Domotique</div>
+                              </div>
+                              <div class="item">
+                                <img src="" alt="">
+                                <div class="carousel-caption">Internet des Objets</div>
+                              </div>
+                              <div class="item">
+                                <img src="" alt="">
+                                <div class="carousel-caption">Robotique</div>
+                              </div>
+                              <div class="item">
+                                <img src="{{ asset('bundles/images/anciens.jpg') }}" alt="">
+                                <div class="carousel-caption">Créé par des étudiants de l'ESP</div>
+                              </div>
+                              <div class="item">
+                                <img src="{{ asset('bundles/images/esp.png') }}" alt="">
+                                <div class="carousel-caption">L'ecole supérieure polytechnique</div>
+                              </div>
+                              
+                          </div>
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+                              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                              <span class="sr-only">Précedent</span>
+                            </a>
+                            <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+                              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                              <span class="sr-only">Suivant</span>
+                            </a>
+                      </div>
+                </div>
+            </div>
+          
+        <!-- video youtube -->
+        <div class="well">
+            <div class="row">
+              <div class="col-md-4 col-md-offset-2" >
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/b2OjHfbOK8o" frameborder="0" style="width:400px; height:300px;" autoplay=1></iframe>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- evenements récents -->
+
+        <!-- sections resumant les parties du site -->
+        <section class="well">
+            <h1 class="h2">Objectifs</h1>
+            <p>
+
+            </p>
+        </section>
+
+        <section class="well">
+            <h1 class="h2">Projets réalisés</h1>
+            <p>
+
+            </p>
+        </section>
+
+    {% endblock %}
+
+    {% include 'default/footer.html.twig' %}
+{% endblock %}
+
