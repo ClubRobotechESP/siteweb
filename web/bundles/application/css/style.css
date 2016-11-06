@@ -1,0 +1,121 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  overflow-x: hidden;
+  font-size: 16px;
+  background-color: white; /* orange */
+}
+
+footer{
+  background-color: blue;/*#2C3E50;*/
+}
+
+
+
+form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #eeeeee;
+}
+
+header {
+  text-align: center;
+
+  color: white;
+  
+}
+
+
+#menu{
+  padding-bottom:   20px; 
+  padding-top:      20px; 
+  margin-bottom:    0px; 
+  bottom:           0px;
+}
+
+#menu li{
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+  font-weight: normal;
+  border-radius: 5px;
+}
+
+#menu li a:hover {
+  background-color: #0000CD; /*#f0ad4e;*/
+
+}
+
+#menu .active {
+  background-color: #D3D3D3;/*#5bc0de;*/
+
+}
+
+@media (min-width: 768px) {
+  header .container {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+
+  header .intro-text .name {
+    font-size: 4.75em;
+  }
+
+  header .intro-text .skills {
+    font-size: 1.75em;
+  }
+}
+
+p {
+  font-size: 20px;
+}
+
+p.small {
+  font-size: 16px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+section.success {
+  background: #18BC9C;
+
+}
+
+
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+  height:400px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.show {
+  display: block !important;
+}
+.hidden {
+  display: none !important;
+}
+.invisible {
+  visibility: hidden;
+}
+
+.well{
+  background-color: white;
+  border-color: white;
+  color: black
+}
+
+.carousel-caption{
+   color: blue;
+   font-size: 20px;
+}
+
