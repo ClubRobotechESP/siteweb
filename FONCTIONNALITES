@@ -1,0 +1,22 @@
+page d'accueil
+-> slide image
+-> brève présentation du club
+-> chaine youtube
+-> evenements récents du club
+-> articles récents
+-> évènements récents de l'Ecole
+
+team
+-> bureau restreint
+-> anciens
+-> professeurs encadrants
+
+-------------DONE------------------
+-> generation bundle de base: applicationBundle
+	-> menu
+	-> intégration chaine youtube
+	-> 
+
+----------- TO DO ---------------------
+-> design
+-> newsletter

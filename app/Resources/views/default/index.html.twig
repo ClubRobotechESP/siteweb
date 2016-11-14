@@ -10,88 +10,160 @@
     	   <!-- carousel -->
 
          
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div id="mycarousel" class="carousel slide" data-ride="carousel" style="padding:0px; margin:0px;">
-                      <ol class="carousel-indicators">
-                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#mycarousel" data-slide-to="1"></li>
-                        <li data-target="#mycarousel" data-slide-to="2"></li>
-                        <li data-target="#mycarousel" data-slide-to="3"></li>
-                        <li data-target="#mycarousel" data-slide-to="4"></li>
-                        <li data-target="#mycarousel" data-slide-to="5"></li>
-                      </ol>
+        
+        <div class="container-fluid" style="width:80%;">
+          <div class="row">
+            <div class="col-md-12">
 
-                      <!-- Wrapper for slides -->
-                    
-                          <div class="carousel-inner" role="listbox">
-                              <div class="item active">
-                                <img src="{{ asset('bundles/images/logo.jpg') }}" alt="">
-                                <div class="carousel-caption">Le club Robotech de l'ESP</div>
-                              </div>
-                              <div class="item">
-                                <img src="" alt="">
-                                <div class="carousel-caption">Domotique</div>
-                              </div>
-                              <div class="item">
-                                <img src="" alt="">
-                                <div class="carousel-caption">Internet des Objets</div>
-                              </div>
-                              <div class="item">
-                                <img src="" alt="">
-                                <div class="carousel-caption">Robotique</div>
-                              </div>
-                              <div class="item">
-                                <img src="{{ asset('bundles/images/anciens.jpg') }}" alt="">
-                                <div class="carousel-caption">Créé par des étudiants de l'ESP</div>
-                              </div>
-                              <div class="item">
-                                <img src="{{ asset('bundles/images/esp.png') }}" alt="">
-                                <div class="carousel-caption">L'ecole supérieure polytechnique</div>
-                              </div>
-                              
-                          </div>
-
-                            <!-- Controls -->
-                            <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
-                              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                              <span class="sr-only">Précedent</span>
-                            </a>
-                            <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
-                              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                              <span class="sr-only">Suivant</span>
-                            </a>
-                      </div>
-                </div>
-            </div>
-          
-        <!-- video youtube -->
-        <div class="well">
-            <div class="row">
-              <div class="col-md-4 col-md-offset-2" >
-                  <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/b2OjHfbOK8o" frameborder="0" style="width:400px; height:300px;" autoplay=1></iframe>
+              <div class="carousel slide" id="carousel-284850">
+                <ol class="carousel-indicators">
+                  <li class="active" data-slide-to="0" data-target="#carousel-284850">
+                  </li>
+                  <li data-slide-to="1" data-target="#carousel-284850">
+                  </li>
+                  <li data-slide-to="2" data-target="#carousel-284850">
+                  </li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img alt="Le club Robotech de l'ESP" src="{{ asset('bundles/images/logo.jpg') }}">
+                    <div class="carousel-caption">
+                      <h4>
+                        Le club Robotech de l'ESP
+                      </h4>
+                      <p>
+                        Le club Robotech de l'ESP
+                      </p>
+                    </div>
                   </div>
+                  <div class="item">
+                    <img alt="Créé par des étudiants de l'ESP" src="{{ asset('bundles/images/anciens.jpg') }}">
+                    <div class="carousel-caption">
+                      <h4>
+                        Créé par des étudiants de l'ESP
+                      </h4>
+                      <p>
+                        Créé par des étudiants de l'ESP
+                      </p>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img alt="L'ecole supérieure polytechnique" src="{{ asset('bundles/images/esp.png') }}">
+                    <div class="carousel-caption">
+                      <h4>
+                        L'ecole supérieure polytechnique
+                      </h4>
+                      <p>
+                       L'ecole supérieure polytechnique
+                      </p>
+                    </div>
+                  </div>
+                </div> <a class="left carousel-control" href="#carousel-284850" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-284850" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
               </div>
+            </div>
           </div>
-        </div>
 
-        <!-- evenements récents -->
+          <div class="row">
+            <div class="col-md-8">
+              <h2>
+                    Presentation ROBOTECH
+                  </h2>
+                  <p class="texte-presentation">
+                    Le club Robotech a été créé en Novembre 2013. Il a pour principal objectif de regrouper les étudiants des différents de l'école afin qu'ils puissent partager et travailler sur des projets transversaux comme la robotique et l'internet des objets.
+                  </p>
+                  <p>
+                    <a class="btn" href="#">View details »</a>
+                  </p>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <img alt="Bootstrap Thumbnail First" src="{{ asset('bundles/images/robot3.jpg') }}">
+                    <div class="caption">
+                      <h3>
+                        Thumbnail label
+                      </h3>
+                      <p>
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                      </p>
+                      <p>
+                        <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <img alt="Bootstrap Thumbnail Second" src="{{ asset('bundles/images/robot4.jpg') }}">
+                    <div class="caption">
+                      <h3>
+                        Thumbnail label
+                      </h3>
+                      <p>
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                      </p>
+                      <p>
+                        <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <img alt="Bootstrap Thumbnail Third" src="{{ asset('bundles/images/robot5.jpg') }}">
+                    <div class="caption">
+                      <h3>
+                        Thumbnail label
+                      </h3>
+                      <p>
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                      </p>
+                      <p>
+                        <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-        <!-- sections resumant les parties du site -->
-        <section class="well">
-            <h1 class="h2">Objectifs</h1>
-            <p>
+            <div class="col-md-4" style="margin-top:2px;">
+              <div class="media row">
+                <div class="col-md-3" >
+                   <div class="embed-responsive embed-responsive-4by3">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/b2OjHfbOK8o" frameborder="0" style="width:400px; height:300px;" autoplay=1></iframe>
+                    </div>
+                </div>
+                <div class="col-md-1" >
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      Chaine youtube
+                    </h4> 
+                  </div>
+                </div>
+              </div>
+              <div class="media">
+                 <a href="#" class="pull-left"><img alt="Bootstrap Media Preview" src="http://lorempixel.com/64/64/" class="media-object"></a>
+                <div class="media-body">
+                  <h4 class="media-heading">
+                    Nested media heading
+                  </h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                </div>
+              </div>
+              <div class="media">
+                 <a href="#" class="pull-left"><img alt="Bootstrap Media Preview" src="http://lorempixel.com/64/64/" class="media-object"></a>
+                <div class="media-body">
+                  <h4 class="media-heading">
+                    Nested media heading
+                  </h4> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>  
+        
 
-            </p>
-        </section>
 
-        <section class="well">
-            <h1 class="h2">Projets réalisés</h1>
-            <p>
-
-            </p>
-        </section>
 
     {% endblock %}
 
